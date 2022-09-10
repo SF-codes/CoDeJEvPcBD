@@ -103,11 +103,13 @@ p {
 #you-btn:active,
 #memory-btn:active {
   color: #000;
+  border-radius: 10px;
 }
 
 #you-btn:active:after,
 #memory-btn:active:after {
   background: transparent;
+  border-radius: 10px;
 }
 
 #you-btn:hover:before,

@@ -21,7 +21,7 @@ body {
 }
 
 body.active {
-  background: #6b0404;
+  background: #6e0404;
 }
 
 p {
@@ -229,7 +229,7 @@ h2,
 
 #memory-and-you-btn-content {
   padding-top: 0.5rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 #background {

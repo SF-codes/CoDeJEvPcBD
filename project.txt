@@ -1,0 +1,12 @@
+Good morning! (evening, afternoon)
+-Let's go! (button)?-
+
+Daily words/quote or button?
+
+Both words and quotes? 
+
+daily quote but also button that pops up a compliment and/or memory? 2 buttons and memory?
+
+makign the quote attach from another file into quote file.
+Making the quote array unique per day until all is used up.
+same with the memories and compliments

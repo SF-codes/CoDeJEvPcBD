@@ -212,6 +212,10 @@ h2 {
   font-size: 1.25rem;
 }
 
+#quote-generator {
+  padding-top: 0.5rem;
+}
+
 #quote-generator,
 #memory-and-you-btn-content {
   font-size: 1.5rem;
@@ -255,6 +259,6 @@ h2,
 @media (max-width: 500px) {
   #you-btn,
   #memory-btn {
-    width: 100px;
+    width: 110px;
   }
 }

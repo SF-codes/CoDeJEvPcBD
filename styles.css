@@ -19,7 +19,13 @@ body {
 }
 
 body.active {
-  background: #6e0404;
+  background: #740404;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 35px;
+  font-weight: 600;
 }
 
 p {
@@ -41,13 +47,54 @@ p {
   background: #f06a35;
 }
 
-#memory-and-you-btn-content {
-  display: none;
+#toggle .switch {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15vmin;
+  height: 15vmin;
+  background: #ff0000;
+  border: 0.5vmin solid #000;
+  border-radius: 50%;
+  transform: scale(0.9);
+  transition: 0.8s;
 }
 
-#memory-and-you-btn-content.active {
-  display: block;
+.switch::before {
+  content: "";
+  position: absolute;
+  background: #fff;
+  bottom: -0.3vmin;
+  left: -0.3vmin;
+  width: 14.6vmin;
+  height: 7.5vmin;
+  border: 0.5vmin solid #000;
+  border-bottom-left-radius: 30vmin;
+  border-bottom-right-radius: 30vmin;
+  box-shadow: inset 1vmin -1vmin 1vmin #7f7c82;
 }
+
+.switch::after {
+  content: "";
+  position: absolute;
+  overflow: hidden;
+  top: 4.6vmin;
+  left: 4.6vmin;
+  width: 5vmin;
+  height: 5vmin;
+  background: #fff;
+  border: 0.5vmin solid #000;
+  border-radius: 50%;
+  box-shadow: -4vmin -4vmin 0 -1vmin #fff;
+}
+
+#toggle.active .switch {
+  left: 15vmin;
+  background: #ff0000;
+  transform: scale(0.9) rotate(180deg);
+  transition: 0.8s;
+}
+/* Buttons and Buttons on Toggle */
 
 .button-group {
   display: flex;
@@ -151,64 +198,20 @@ p {
   display: block;
 }
 
-#quote-generator.active {
+#memory-and-you-btn-content {
   display: none;
 }
 
-#toggle .switch {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 15vmin;
-  height: 15vmin;
-  background: #ff0000;
-  border: 0.5vmin solid #000;
-  border-radius: 50%;
-  transform: scale(0.9);
-  transition: 0.8s;
+#memory-and-you-btn-content.active {
+  display: block;
 }
 
-.switch::before {
-  content: "";
-  position: absolute;
-  background: #fff;
-  bottom: -0.3vmin;
-  left: -0.3vmin;
-  width: 14.6vmin;
-  height: 7.5vmin;
-  border: 0.5vmin solid #000;
-  border-bottom-left-radius: 30vmin;
-  border-bottom-right-radius: 30vmin;
-  box-shadow: inset 1vmin -1vmin 1vmin #7f7c82;
-}
-
-.switch::after {
-  content: "";
-  position: absolute;
-  overflow: hidden;
-  top: 4.6vmin;
-  left: 4.6vmin;
-  width: 5vmin;
-  height: 5vmin;
-  background: #fff;
-  border: 0.5vmin solid #000;
-  border-radius: 50%;
-  box-shadow: -4vmin -4vmin 0 -1vmin #fff;
-}
-
-#toggle.active .switch {
-  left: 15vmin;
-  background: #ff0000;
-  transform: scale(0.9) rotate(180deg);
-  transition: 0.8s;
+#memory-and-you-btn-content {
+  padding-top: 0.5rem;
+  padding-bottom: 1.2rem;
 }
 
 /* quote section */
-
-h2 {
-  font-size: 2rem;
-  line-height: 35px;
-}
 
 #date {
   font-size: 1.25rem;
@@ -218,22 +221,16 @@ h2 {
   padding-top: 0.5rem;
 }
 
+#quote-generator.active {
+  display: none;
+}
+
 #quote-generator,
 #memory-and-you-btn-content {
   font-size: 1.5rem;
   font-style: italic;
   line-height: 30px;
-}
-
-h2,
-#quote-generator,
-#memory-and-you-btn-content {
   font-weight: 600;
-}
-
-#memory-and-you-btn-content {
-  padding-top: 0.5rem;
-  padding-bottom: 1.2rem;
 }
 
 #background {
@@ -257,6 +254,8 @@ h2,
   background: rgb(255, 255, 255, 0.5);
   box-shadow: 0 20px 65px rgba(206, 207, 206, 0.3);
 }
+
+/* Media Queries */
 
 @media (max-width: 500px) {
   #you-btn,

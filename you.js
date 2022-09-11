@@ -8,4 +8,12 @@ export let you = [
   "You're one of the strongest people I know",
   "You're amazing! Don't forget that. But don't worry, I won't let you",
   "Watching you drive is like, idk, one of the best things?",
+  "The way you lean down to help me at my PC",
+  "The way you WALK!",
+  "The way you pause for a split second when you're thinking of what to do next",
+  "Your eyes when they smile like your mouth when you're happy",
+  "The smile you get when you're with Riv is like!! Heart melting! Not to mention how adorable!",
+  "You just might be better than coffee...!! Woah!",
+  "Pretty sure your laugh is the most contagious thing in the BEST way",
+  "You quoting songs I sent, or ones you're listening to! Ahhh. Love seeing the words you like",
 ];

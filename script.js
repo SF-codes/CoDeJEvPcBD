@@ -10,6 +10,9 @@ const body = document.querySelector("body");
 
 const youBtn = document.getElementById("you-btn");
 const memoryBtn = document.getElementById("memory-btn");
+const memoryAndYouBtnContent = document.getElementById(
+  "memory-and-you-btn-content"
+);
 
 const time = Date.now();
 const today = new Date(time);
@@ -17,9 +20,6 @@ const greetingTime = new Date(time).getHours();
 const greetingTitle = document.querySelector("h2");
 const todaysDate = document.getElementById("date");
 const quoteGenerator = document.getElementById("quote-generator");
-const memoryAndYouBtnContent = document.getElementById(
-  "memory-and-you-btn-content"
-);
 let randomNum = 133337;
 let greeting;
 
@@ -35,11 +35,13 @@ toggle.onclick = function () {
 
 // Quoteeee
 if (greetingTime < 12)
-  greeting = "Good Morning Jorge! The sunshine has nothing on your smile!";
+  greeting =
+    "Good Morning Jorge! The sunshine has nothing on your smile! HAPPY BIRTHDAY!";
 else if (greetingTime >= 12 && greetingTime <= 17)
-  greeting = "Good Afternoon Jorggeee! Today looks so good on you!";
+  greeting =
+    "Good Afternoon Jorggeee! Today looks so good on you! HAPPY BIRTHDAY!";
 else if (greetingTime >= 17 && greetingTime <= 24)
-  greeting = `Good Evening Jorgggeee! Your reminder to take a break, breath, relax!!`;
+  greeting = `Good Evening Jorgggeee! Your reminder to take a break, breath, relax!! HAPPY BIRTHDAY!`;
 
 greetingTitle.textContent = greeting;
 todaysDate.textContent = today.toDateString();

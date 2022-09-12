@@ -16,4 +16,5 @@ export let you = [
   "You just might be better than coffee...!! Woah!",
   "Pretty sure your laugh is the most contagious thing in the BEST way",
   "You quoting songs I sent, or ones you're listening to! Ahhh. Love seeing the words you like",
+  "Hearing how you speak, and encourage people around you... Is so.. Refreshing",
 ];

@@ -35,13 +35,11 @@ toggle.onclick = function () {
 
 // Quoteeee
 if (greetingTime < 12)
-  greeting =
-    "Good Morning Jorge! The sunshine has nothing on your smile! HAPPY BIRTHDAY!";
+  greeting = "Good Morning Jorge! The sunshine has nothing on your smile!";
 else if (greetingTime >= 12 && greetingTime <= 17)
-  greeting =
-    "Good Afternoon Jorggeee! Today looks so good on you! HAPPY BIRTHDAY!";
+  greeting = "Good Afternoon Jorggeee! Today looks so good on you!";
 else if (greetingTime >= 17 && greetingTime <= 24)
-  greeting = `Good Evening Jorgggeee! Your reminder to take a break, breath, relax!! HAPPY BIRTHDAY!`;
+  greeting = `Good Evening Jorgggeee! Your reminder to take a break, breath, relax!!`;
 
 greetingTitle.textContent = greeting;
 todaysDate.textContent = today.toDateString();

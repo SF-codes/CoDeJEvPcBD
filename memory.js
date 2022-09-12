@@ -15,4 +15,7 @@ export let memory = [
   "Stairwell hugs!",
   "My knight in shining armor that gets me the sauce from the way back of the shelf",
   "You asking me which thing (Me over here not knowing the name) to put on the front of your car!",
+  "Sitting in complete silence and still being the happiest ever",
+  "Sending you meme's while you're RIGHT there just so you can smile",
+  "Keeping you posted about the posts!! :p",
 ];

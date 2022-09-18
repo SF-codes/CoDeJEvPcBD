@@ -18,4 +18,6 @@ export let memory = [
   "Sitting in complete silence and still being the happiest ever",
   "Sending you meme's while you're RIGHT there just so you can smile",
   "Keeping you posted about the posts!! :p",
+  "Hey, you! (This is more of a me memory but I'ma put it here anyway!)",
+  "Teaching me Spanish words! Makes me feliz",
 ];

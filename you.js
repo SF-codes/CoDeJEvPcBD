@@ -17,4 +17,7 @@ export let you = [
   "Pretty sure your laugh is the most contagious thing in the BEST way",
   "You quoting songs I sent, or ones you're listening to! Ahhh. Love seeing the words you like",
   "Hearing how you speak, and encourage people around you... Is so.. Refreshing",
+  "I love hearing your amazing smile over the headset!!",
+  "If you could hear my smile when you're sarcastic with me :p",
+  "When you say my name!! Magic! (side note, just had deja vu of saying/doing this exact thing) :o",
 ];

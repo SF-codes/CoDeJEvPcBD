@@ -46,4 +46,6 @@ export let motivationalQuotes = [
   "Always know there are people out there who will always, always believe in you",
   "You're the best thing since sliced bread ( Coming from the baker, that means a lot :p )",
   "I'm pretty sure magic is real, cause here you are",
+  "I'm stronger... than this chip!",
+  "The moon is a reminder that no matter what phase you're in, you're still whole",
 ];

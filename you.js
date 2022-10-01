@@ -20,4 +20,5 @@ export let you = [
   "I love hearing your amazing smile over the headset!!",
   "If you could hear my smile when you're sarcastic with me :p",
   "When you say my name!! Magic! (side note, just had deja vu of saying/doing this exact thing) :o",
+  "",
 ];
